@@ -1,5 +1,4 @@
 body{
-    background-image:url("img/bg.jpg");
     font-family: "Helvetica Neue";
 }
 
@@ -10,13 +9,20 @@ a{
 #head{
     width: 960px;
     /*height: 100px;*/
-    /*background-color: darkseagreen;*/
+    background-color:#006;
     margin: auto;
     color: whitesmoke;
     border-bottom:dashed 1px white;
     margin-bottom: 10px;
+	/*background-image:url("img/bg.jpg");*/
 }
 
+#banner{
+	margin: auto;
+	background-image:url(img/banner.jpg);
+	height:100px;
+	width:960px;
+}
 
 #wrapper{
     margin: auto;
@@ -55,31 +61,19 @@ a{
     padding: 10px;
 }
 
-.logo_title{
-    float: left;
-}
-.logo_title h1{
-    font-size: 30px;
-}
-.logo_title h2{
-    font-size: 20px;
-}
-
-.navi{
-    float: right;
-}
-
 .clear{
     clear: both;
 }
 
 .navi ul{
     list-style: none;
-    margin-top: 76px;
+	margin:0;
 }
 .navi ul li{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
 
 }
 .navi ul li a{
@@ -190,7 +184,7 @@ a{
     margin-top: 10px;
 }
 
-.site_about{
+#site_about{
     float: left;
     color: white;
     padding-left: 30px;
